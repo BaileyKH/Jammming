@@ -1,0 +1,53 @@
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.spotify-logo{
+    width: 100px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.header{
+    color: white;
+    font-family: 'Gotham-Bold', Arial, sans-serif;
+    font-size: 5em;
+    text-align: center;
+}
+
+span {
+    color: hsl(141, 76%, 48%);
+}
+
+.p-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.description{
+    color: white;
+    font-family: 'Gotham-Bold', Arial, sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1020px) {
+    .logo-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .spotify-logo{
+        width: 75px;
+        height: auto;
+    }
+    .header{
+        font-size: 3em;
+    }
+    .p-container{
+        text-align: center;
+    }
+  }

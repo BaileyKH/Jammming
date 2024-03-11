@@ -1,0 +1,35 @@
+.results-container{
+    background-color: rgb(14, 14, 14);
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 150px;
+    overflow-y: scroll;
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: 'Gotham-Light';;
+    color: rgb(167, 167, 167);
+    text-align: center;
+    margin: 15px;
+    text-decoration: underline;
+    text-decoration-color: hsl(141, 76%, 48%);
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+  
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+    .results-container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 90%;
+      margin: 0;
+      gap: 0;
+    }
+  }

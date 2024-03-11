@@ -1,0 +1,62 @@
+.playlist-container{
+    background-color: rgb(14, 14, 14);
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 150px;
+}
+
+.playlist-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.playlist-name-container input{
+    background: rgb(36, 36, 36);
+    color: #FFFFFF;
+    font-family: 'Gotham-Light', Arial, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    border: none;
+    border-radius: 28px;
+    padding: 10px 15px;
+}
+
+.playlist-name-container input::placeholder{
+    text-align: center;
+    font-family: 'Gotham-Light', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.playlist-name-container input:hover{
+    border: 1px solid #FFFFFF;
+}
+
+.playlist-btn{
+    background-color: hsl(141, 76%, 48%);
+    font-family: 'Gotham-Light', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 28px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    transition: background-color 0.2s, border-color 0.2s;
+    cursor: pointer;
+}
+
+.playlist-btn:active {
+    background-color: hsl(141, 76%, 38%);
+}
+
+@media only screen and (max-width: 1020px) {
+    .playlist-container {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 90%;
+      margin: 10px;
+    }
+}
+
