@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid hsl(141, 76%, 48%);
+    padding-left: 10px;
 }
   
 .Track-action {
@@ -25,6 +26,32 @@
     justify-content: center;
     height: 72px;
     padding-left: 10px;
+}
+
+.Track-image{
+    position: relative;
+}
+
+.Track-image img{
+    border-radius: 5px;
+    display: block;
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.PlayPause-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: none;
+    border: none;
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    color: hsla(0, 0%, 0%, 0.7);
+}
+
+.PlayPause-btn:hover{
+    color: hsl(0, 0%, 0%);
 }
   
 .Track-information h3 {

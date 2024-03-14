@@ -8,7 +8,6 @@ import Playlist from '../Playlist/Playlist.jsx'
 import Spotify from '../../API/Spotify.js'
 
 
-
 function App() {
 
   const [searchResults, setSearchResults] = useState([]);

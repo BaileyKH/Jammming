@@ -1,4 +1,4 @@
-const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;;
+const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
 const redirectUri = 'http://localhost:5173/';
 let accessToken;
 
@@ -31,13 +31,16 @@ const Spotify = {
 
       if (response.ok) {
         const jsonResponse = await response.json();
+        console.log(jsonResponse);
         if (!jsonResponse.tracks) return [];
         return jsonResponse.tracks.items.map(track => ({
           id: track.id,
           name: track.name,
           artist: track.artists[0].name,
           album: track.album.name,
-          uri: track.uri
+          uri: track.uri,
+          image: track.album.images[2].url,
+          preview: track.preview_url 
         }));
       } else {
         throw new Error(`Request failed with status ${response.status}`);

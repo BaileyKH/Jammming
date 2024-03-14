@@ -29,6 +29,7 @@ h2{
       align-items: center;
       flex-direction: column;
       width: 90%;
+      min-height: 661px;
       margin: 0;
       gap: 0;
     }

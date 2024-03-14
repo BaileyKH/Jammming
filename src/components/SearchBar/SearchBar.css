@@ -4,14 +4,12 @@
 }
 
 .search-container{
-    --padding: 14px;
-
     width: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: var(--padding);
-    margin-top: 100px;
+    padding: 14px;
+    margin-top: 50px;
     border-radius: 28px;
     background: rgb(36, 36, 36);
 }
@@ -28,7 +26,7 @@
     font-size: 1.1em;
     font-family: 'Gotham-Light', Arial, sans-serif;
     color: #FFFFFF;
-    margin-left: var(--padding);
+    margin-left: 14px;
     outline: none;
     border: none;
     background: transparent;
