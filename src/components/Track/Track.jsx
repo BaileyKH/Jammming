@@ -10,7 +10,7 @@ const Track = (props) => {
 
     const [audio] = useState(() => {
       const audio = new Audio(props.track.preview);
-      audio.volume = 0.05; 
+      audio.volume = 0.04; 
       return audio;
     });
 
