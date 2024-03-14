@@ -1,5 +1,5 @@
 const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const redirectUri = 'http://localhost:5173/';
+const redirectUri = 'https://bucolic-meerkat-e951b3.netlify.app/';
 let accessToken;
 
 const Spotify = {
