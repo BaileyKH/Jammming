@@ -28,7 +28,7 @@ JamMming is a dynamic web application that enables users to effortlessly search 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
-BaileyKH - [Portfolio](https://baileykh.netlify.app/) - hen.baileyk@gmail.com
+BaileyKH - [Portfolio](https://baileykh.dev/) - hen.baileyk@gmail.com
 
 ## Acknowledgements
 - [Spotify API](https://developer.spotify.com/documentation/web-api/)
