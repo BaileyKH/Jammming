@@ -1,5 +1,5 @@
 const clientId = import.meta.env.VITE_SPOTIFY_CLIENT_ID;
-const redirectUri = "https://playlistcreation.netlify.app/";
+const redirectUri = "https://jammming-spotify.vercel.app/";
 let accessToken;
 
 const Spotify = {
