@@ -66,9 +66,17 @@ input[type="search"]::-webkit-search-cancel-button{
     .search-container{
         width: 90%;
         margin-top: 50px;
-        margin-bottom: 150px;
     }
     .search-input::placeholder {
         font-size: 0.8em;
     }
   }
+
+@media only screen and (max-width: 480px) {
+    .search-container{
+        width: 90%;
+        margin-top: 50px;
+        margin-bottom: 150px;
+    }
+}
+
